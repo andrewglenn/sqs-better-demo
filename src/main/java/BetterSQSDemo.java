@@ -22,8 +22,8 @@ public class BetterSQSDemo {
 
     public static void main(String[] args) {
 
-        String accessKey = "AKIAJXLBXCX55YV7Q5BA";
-        String secretKey = "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";
+        String accessKey = "put in access key from ~/.aws/config!";
+        String secretKey = "add secret key from ~/.aws/config!";
         AmazonSQS sqs = new AmazonSQSClient(new BasicAWSCredentials(accessKey, secretKey));
 
         Region usEast = Region.getRegion(Regions.US_EAST_1);
